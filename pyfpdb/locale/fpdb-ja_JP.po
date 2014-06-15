@@ -4051,56 +4051,56 @@ msgstr "GTKをインストールするか、環境変数PATHを編集してく�
 msgid "No gtk directories found in your path."
 msgstr "PATHにGTKのフォルダが見つかりません"
 
-#~ msgid "n Days"
-#~ msgstr "日前から"
+msgid "n Days"
+msgstr "日前から"
 
-#~ msgid "Force layout"
-#~ msgstr "レイアウトを強制指定"
+msgid "Force layout"
+msgstr "レイアウトを強制指定"
 
-#~ msgid "Please select site"
-#~ msgstr "DBテーブルを再作成してください"
+msgid "Please select site"
+msgstr "DBテーブルを再作成してください"
 
-#~ msgid "Number of threads:"
-#~ msgstr "スレッド数:"
+msgid "Number of threads:"
+msgstr "スレッド数:"
 
-#~ msgid "Hands/file:"
-#~ msgstr "ハンド/ファイル:"
+msgid "Hands/file:"
+msgstr "ハンド/ファイル:"
 
-#~ msgid "Hand processing starting."
-#~ msgstr "ハンド処理を開始。"
+msgid "Hand processing starting."
+msgstr "ハンド処理を開始。"
 
-#~ msgid "Reposition StatWindows"
-#~ msgstr "統計ウィンドウの再配置"
+msgid "Reposition StatWindows"
+msgstr "統計ウィンドウの再配置"
 
-#~ msgid "For Multiple Blind Levels:"
-#~ msgstr "複数ブラインドレベル:"
+msgid "For Multiple Blind Levels:"
+msgstr "複数ブラインドレベル:"
 
-#~ msgid "Updating config file"
-#~ msgstr "設定ファイルを更新中"
+msgid "Updating config file"
+msgstr "設定ファイルを更新中"
 
-#~ msgid "HUD process overloaded, skipping this hand."
-#~ msgstr "HUDプロセスが過負荷のため、このハンドをスキップします。"
+msgid "HUD process overloaded, skipping this hand."
+msgstr "HUDプロセスが過負荷のため、このハンドをスキップします。"
 
-#~ msgid "_Site Preferences"
-#~ msgstr "ポーカーサイト設定(_S)"
+msgid "_Site Preferences"
+msgstr "ポーカーサイト設定(_S)"
 
-#~ msgid "_Advanced Preferences"
-#~ msgstr "高度な設定(_A)"
+msgid "_Advanced Preferences"
+msgstr "高度な設定(_A)"
 
-#~ msgid "Tournament _Results Import"
-#~ msgstr "トーナメント結果インポート(_R)"
+msgid "Tournament _Results Import"
+msgstr "トーナメント結果インポート(_R)"
 
-#~ msgid "_Viewers"
-#~ msgstr "ビューア(_V)"
+msgid "_Viewers"
+msgstr "ビューア(_V)"
 
-#~ msgid "_Auto Import and HUD"
-#~ msgstr "自動インポートとHUD(_A)"
+msgid "_Auto Import and HUD"
+msgstr "自動インポートとHUD(_A)"
 
-#~ msgid "_Database"
-#~ msgstr "データベース(_D)"
+msgid "_Database"
+msgstr "データベース(_D)"
 
-#~ msgid "Auto Import"
-#~ msgstr "自動インポート"
+msgid "Auto Import"
+msgstr "自動インポート"
 
-#~ msgid "No need to rebuild hudcache."
-#~ msgstr "HUDキャッシュの再構築は不要です。"
+msgid "No need to rebuild hudcache."
+msgstr "HUDキャッシュの再構築は不要です。"
