@@ -539,15 +539,15 @@ msgstr "index作成中 %s %s"
 
 #: Database.py:1675 Database.py:1682 Database.py:1690
 msgid "Dropping index:"
-msgstr "indexドロップ中:"
+msgstr "Dropping index:"
 
 #: Database.py:1680 Database.py:1688 Database.py:1695
 msgid "Drop index failed:"
-msgstr "indexドロップ失敗:"
+msgstr "Drop index failed:"
 
 #: Database.py:1710 Database.py:1750
 msgid "set_isolation_level failed:"
-msgstr "set_isolation_level 失敗:"
+msgstr "set_isolation_level failed:"
 
 #: Database.py:1727 Database.py:1735
 msgid "Creating foreign key:"
@@ -1034,7 +1034,7 @@ msgstr "ハンド履歴ディレクトリを自動判別しています。ポー
 
 #: GuiAutoImport.py:250
 msgid "Global lock taken ... Auto Import Started."
-msgstr "ロックを取得 ... 自動インポートを開始しました。"
+msgstr "大域ロックを取得 ... 自動インポートを開始しました。"
 
 #: GuiAutoImport.py:271
 msgid "*** %s was not found"
@@ -1058,7 +1058,7 @@ msgstr "自動インポートは中断されました。"
 
 #: GuiAutoImport.py:299
 msgid "Global lock not available."
-msgstr "ロックは有効ではありません"
+msgstr "大域ロックを取得できません。"
 
 #: GuiAutoImport.py:305
 msgid "Stopping Auto Import."
@@ -1066,7 +1066,7 @@ msgstr "自動インポートを停止中。"
 
 #: GuiAutoImport.py:305 fpdb.pyw:1127
 msgid "Global lock released."
-msgstr "ロックを解放しました。"
+msgstr "大域ロックを解放しました。"
 
 #: GuiAutoImport.py:307
 msgid "HUD already terminated."
@@ -1102,7 +1102,7 @@ msgstr "インポート完了"
 
 #: GuiBulkImport.py:109
 msgid "bulk import aborted - global lock not available"
-msgstr "一括インポートを中断しました - ロックは無効です"
+msgstr "一括インポートを中断しました - 大域ロックを取得できません"
 
 #: GuiBulkImport.py:146 GuiTourneyImport.py:140 fpdb.pyw:918
 msgid "_Bulk Import"
@@ -1903,7 +1903,7 @@ msgstr "トーナメントのインポート完了: 保存: %d, エラー: %d �
 
 #: GuiTourneyImport.py:82
 msgid "tourney import aborted - global lock not available"
-msgstr "トーナメントのインポートが中断されました - ロックが取得できません"
+msgstr "トーナメントのインポートが中断されました - 大域ロックを取得できません"
 
 #: GuiTourneyImport.py:111
 msgid "Site filter:"
@@ -3878,11 +3878,11 @@ msgstr "Status: %s のデータベース %s に接続しました、ホストは
 
 #: fpdb.pyw:1089
 msgid "Global lock taken by %s"
-msgstr "ロックは%sによって取得されています"
+msgstr "大域ロックは%sによって取得されています"
 
 #: fpdb.pyw:1092
 msgid "Failed to get global lock, it is currently held by %s"
-msgstr "ロックを取得できません。%s によってロックが取得されています"
+msgstr "大域ロックを取得できません。現在 %s によって取得されています"
 
 #: fpdb.pyw:1144
 msgid "Bulk Import"
@@ -4058,7 +4058,7 @@ msgid "Force layout"
 msgstr "レイアウトを強制指定"
 
 msgid "Please select site"
-msgstr "DBテーブルを再作成してください"
+msgstr "ポーカーサイトを選択してください"
 
 msgid "Number of threads:"
 msgstr "スレッド数:"
