@@ -3957,7 +3957,7 @@ msgstr "FPDBへようこそ!\n"
 "AGPLでライセンスされる部分とGPL2以降でライセンスされる部分があります。\n"
 "Windows用インストーラパッケージはMITライセンスのコードを含みます。\n"
 "ライセンスの全文はFPDBインストールディレクトリ中の"
-"agpl-3.0.txt, gpl-2.0.txt, gpl-3.0.txt, mit.txtにあります。"
+"agpl-3.0.txt, gpl-2.0.txt, gpl-3.0.txt, mit.txtをご覧ください。"
 
 #: fpdb.pyw:1215
 msgid "Help"
@@ -4106,3 +4106,12 @@ msgstr "自動インポート"
 
 msgid "No need to rebuild hudcache."
 msgstr "HUDキャッシュの再構築は不要です。"
+
+msgid "No <game_stat_set> found for %s games for type %s.\n"
+msgstr ""
+
+msgid "No layout found for %s games for site %s.\n"
+msgstr ""
+
+msgid "No layout found for %d-max %s games for site %s.\n"
+msgstr ""
