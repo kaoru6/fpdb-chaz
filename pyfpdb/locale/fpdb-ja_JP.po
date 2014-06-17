@@ -11,7 +11,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Free Poker Database\n"
-"POT-Creation-Date: 2014-06-14 15:06+JST\n"
+"POT-Creation-Date: 2014-06-17 11:47+JST\n"
 "PO-Revision-Date: 2014-06-15 03:46+0900\n"
 "Last-Translator: TAKAHASHI Kaoru <kaoru@kaisei.org>\n"
 "Language-Team: Fpdb\n"
@@ -29,7 +29,8 @@ msgstr "AbsoluteToFpdb.determineGameType: '%s'"
 #: AbsoluteToFpdb.py:217
 msgid ""
 "AbsoluteToFpdb.determineGameType: Lim_Blinds has no lookup for '%s' - '%s'"
-msgstr "AbsoluteToFpdb.determineGameType: Lim_Blinds から '%s' - '%s' が引けません"
+msgstr ""
+"AbsoluteToFpdb.determineGameType: Lim_Blinds から '%s' - '%s' が引けません"
 
 #: AbsoluteToFpdb.py:235
 msgid "AbsoluteToFpdb.readHandInfo: '%s'"
@@ -38,7 +39,9 @@ msgstr "AbsoluteToFpdb.readHandInfo: '%s'"
 #: AbsoluteToFpdb.py:238
 msgid ""
 "AbsoluteToFpdb.readHandInfo: File name didn't match re_*InfoFromFilename"
-msgstr "AbsoluteToFpdb.readHandInfo: ファイル名が re_*InfoFromFilename にマッチしません"
+msgstr ""
+"AbsoluteToFpdb.readHandInfo: ファイル名が re_*InfoFromFilename にマッチしませ"
+"ん"
 
 #: AbsoluteToFpdb.py:310 CakeToFpdb.py:298 EnetToFpdb.py:307
 #: EverleafToFpdb.py:241 MicrogamingToFpdb.py:235 OnGameToFpdb.py:396
@@ -116,10 +119,6 @@ msgstr "席数"
 #: Aux_Hud.py:312 Aux_Hud.py:346 Aux_Hud.py:363
 msgid "Custom"
 msgstr "指定する"
-
-#: Aux_Hud.py:313
-msgid "Exact"
-msgstr "同一"
 
 #: Aux_Hud.py:316
 msgid "For This Blind Level Only"
@@ -1093,8 +1092,8 @@ msgid ""
 "Bulk import done: Stored: %d, Duplicates: %d, Partial: %d, Errors: %d, Time: "
 "%s seconds, Stored/second: %.0f"
 msgstr ""
-"一括インポート完了: 保存済: %d, 重複: %d, 部分的: %d, エラー: %d, 所要時間: %s "
-"秒, 1秒あたり保存件数: %.0f"
+"一括インポート完了: 保存済: %d, 重複: %d, 部分的: %d, エラー: %d, 所要時間: "
+"%s 秒, 1秒あたり保存件数: %.0f"
 
 #: GuiBulkImport.py:104
 msgid "Import Complete"
@@ -1822,7 +1821,8 @@ msgstr ""
 msgid ""
 "Stove is a GUI mockup of a EV calculation page, and completely non "
 "functional."
-msgstr "ストーブはEV計算ページのGUIモックアップで、まったく使い物になりません。"
+msgstr ""
+"ストーブはEV計算ページのGUIモックアップで、まったく使い物になりません。"
 
 #: GuiStove.py:64
 msgid ""
@@ -2397,12 +2397,16 @@ msgstr ""
 msgid ""
 "*** ERROR - HAND: calling writeGameLine with unexpected STARTTIME value, "
 "expecting datetime.date object, received:"
-msgstr "*** ERROR - HAND: writeGameLine が予期せぬ STARTTIME value, expecting datetime.date object, received で呼び出されました:"
+msgstr ""
+"*** ERROR - HAND: writeGameLine が予期せぬ STARTTIME value, expecting "
+"datetime.date object, received で呼び出されました:"
 
 #: Hand.py:1054
 msgid ""
 "*** Make sure your HandHistoryConverter is setting hand.startTime properly!"
-msgstr "*** HandHistoryConverter が hand.startTime を正しく設定しているか確認してください!"
+msgstr ""
+"*** HandHistoryConverter が hand.startTime を正しく設定しているか確認してくだ"
+"さい!"
 
 #: Hand.py:1055
 msgid "*** Game String:"
@@ -2432,11 +2436,14 @@ msgstr "ブリングイン: %s, %s"
 msgid ""
 "join_holecards: # of holecards should be either < 4, 4 or 7 - 5 and 6 should "
 "be impossible for anyone who is not a hero"
-msgstr "join_holecards: ホールカードは4枚以下か7枚であるべきです。Hero以外では5枚や6枚はあり得ません"
+msgstr ""
+"join_holecards: ホールカードは4枚以下か7枚であるべきです。Hero以外では5枚や6"
+"枚はあり得ません"
 
 #: Hand.py:1910
 msgid "join_holecards: Player '%s' appears not to have been dealt a card"
-msgstr "join_holecards: プレイヤー '%s' は存在していますが、カードが配られていません"
+msgstr ""
+"join_holecards: プレイヤー '%s' は存在していますが、カードが配られていません"
 
 #: Hand.py:1983 Hand.py:2001 Hand.py:2014
 msgid "Pot.end(): '%s': Major failure while calculating pot: '%s'"
@@ -2620,7 +2627,9 @@ msgstr ""
 
 #: MergeSummary.py:216
 msgid "MergeSummary.determineGameType: Muli-table SnG found, unsupported"
-msgstr "MergeSummary.determineGameType: マルチテーブルSnGが見つかりました、未サポートです"
+msgstr ""
+"MergeSummary.determineGameType: マルチテーブルSnGが見つかりました、未サポート"
+"です"
 
 #: MergeSummary.py:402
 msgid "MergeSummary.parseSummaryFile: Could not parse summary file"
@@ -2640,7 +2649,8 @@ msgstr "MergeToFpdb.readHandInfo: '%s'"
 
 #: MergeToFpdb.py:347
 msgid "MergeToFpdb.readPlayerStacks: '%s' Seat:%s acts but not listed"
-msgstr "MergeToFpdb.readPlayerStacks: '%s' Seat:%s アクションしたが一覧にいない"
+msgstr ""
+"MergeToFpdb.readPlayerStacks: '%s' Seat:%s アクションしたが一覧にいない"
 
 #: MergeToFpdb.py:532
 msgid "MergeToFpdb.determineGameType: Multigametypes has no lookup for '%s'"
@@ -2867,7 +2877,9 @@ msgstr "PkrToFpdb.readHandInfo: '%s'"
 #: PokerStarsSummary.py:180
 msgid ""
 "PokerStarsSummary.parseSummaryHtml: This file format is not yet supported"
-msgstr "PokerStarsSummary.parseSummaryHtml: このファイル形式はまだサポートしていません"
+msgstr ""
+"PokerStarsSummary.parseSummaryHtml: このファイル形式はまだサポートしていませ"
+"ん"
 
 #: PokerStarsSummary.py:205
 msgid "PokerStarsSummary.parseSummaryXLS: '%s' '%s"
@@ -2903,7 +2915,8 @@ msgstr "PokerTrackerSummary.parseSummary: '%s'"
 
 #: PokerTrackerSummary.py:95
 msgid "PokerTrackerSummary.parseSummary: Unsupported site summary '%s'"
-msgstr "PokerTrackerSummary.parseSummary: 未サポートのポーカーサイトサマリ '%s'"
+msgstr ""
+"PokerTrackerSummary.parseSummary: 未サポートのポーカーサイトサマリ '%s'"
 
 #: PokerTrackerToFpdb.py:219 PokerTrackerToFpdb.py:234
 msgid "PokerTrackerToFpdb.determineGameType: '%s'"
@@ -2913,7 +2926,9 @@ msgstr "PokerTrackerToFpdb.determineGameType: '%s'"
 msgid ""
 "PokerTrackerToFpdb.determineGameType: Lim_Blinds has no lookup for '%s' - "
 "'%s'"
-msgstr "PokerTrackerToFpdb.determineGameType: Lim_Blinds から '%s' - '%s' が見つかりません"
+msgstr ""
+"PokerTrackerToFpdb.determineGameType: Lim_Blinds から '%s' - '%s' が見つかり"
+"ません"
 
 #: PokerTrackerToFpdb.py:303
 msgid "PokerTrackerToFpdb.readHandInfo: '%s'"
@@ -3369,8 +3384,9 @@ msgstr "トーナメント Insert/Update 完了"
 msgid ""
 "This module was developed and tested with version 2.8.18 of gtk.  You are "
 "using version %d.%d.%d.  Your milage may vary."
-msgstr "このモジュールはGTK 2.8.18でテスト・開発されています。"
-"あなたはGTK %d.%d.%dを利用しています。表示が異なる場合があります。"
+msgstr ""
+"このモジュールはGTK 2.8.18でテスト・開発されています。あなたはGTK %d.%d.%dを"
+"利用しています。表示が異なる場合があります。"
 
 #: WinTables.py:85
 msgid "Window %s not found. Skipping."
@@ -3383,7 +3399,8 @@ msgstr "%s が存在しません。"
 #: WinamaxSummary.py:143 WinamaxSummary.py:200
 msgid "WinamaxSummary.parseSummary: Gametype unknown defaulting to NLHE"
 msgstr ""
-"WinamaxSummary.parseSummary: Gametype が不明のため初期設定のNLホールデムとします"
+"WinamaxSummary.parseSummary: Gametype が不明のため初期設定のNLホールデムとし"
+"ます"
 
 #: WinamaxSummary.py:186
 msgid "WinamaxSummary.parseSummaryFromFile: '%s'"
@@ -3423,13 +3440,17 @@ msgstr ""
 
 #: fpdb.pyw:76
 msgid "GuiStove not found. If you want to use it please install pypoker-eval."
-msgstr "GuiStoveが見つかりません。利用したい場合はpypoker-evalをインストールしてください。"
+msgstr ""
+"GuiStoveが見つかりません。利用したい場合はpypoker-evalをインストールしてくだ"
+"さい。"
 
 #: fpdb.pyw:220
 msgid ""
 "You are free to change, and distribute original or changed versions of fpdb "
 "within the rules set out by the license"
-msgstr "あなたはライセンスで提示された規則に基づき、FPDBの原作または改変したバージョンを自由に配布できます"
+msgstr ""
+"あなたはライセンスで提示された規則に基づき、FPDBの原作または改変したバージョ"
+"ンを自由に配布できます"
 
 #: fpdb.pyw:221
 msgid "Please see the help screen for license information"
@@ -3483,7 +3504,9 @@ msgstr "更新したDBデータを保存中"
 msgid ""
 "Cannot open Database Maintenance window because other windows have been "
 "opened. Re-start fpdb to use this option."
-msgstr "他のウィンドウが開いているため、データベースの保守ウィンドウが開けません。このオプションを使うためにはFPDBを再起動してください。"
+msgstr ""
+"他のウィンドウが開いているため、データベースの保守ウィンドウが開けません。こ"
+"のオプションを使うためにはFPDBを再起動してください。"
 
 #: fpdb.pyw:327
 msgid "Number of TourneyTypes:"
@@ -3532,7 +3555,9 @@ msgstr "本当にDBテーブルを(再)作成してよろしいですか?"
 msgid ""
 "If there already are tables in the database %s on %s they will be deleted "
 "and you will have to re-import your histories."
-msgstr "DBテーブルがデータベース%s(%s上)にすでに存在する場合、DBテーブルは削除され、ハンド履歴を再インポートする必要があります。"
+msgstr ""
+"DBテーブルがデータベース%s(%s上)にすでに存在する場合、DBテーブルは削除され、"
+"ハンド履歴を再インポートする必要があります。"
 
 #: fpdb.pyw:511
 msgid "This may take a while."
@@ -3811,7 +3836,9 @@ msgstr "設定ファイル"
 msgid ""
 "Enter your screen_name and hand history path in the Site Preferences window "
 "(Main menu) before trying to import hands."
-msgstr "ハンド履歴をインポートする前に、あなたのスクリーン名とハンド履歴ディレクトリをポーカーサイト設定ウィンドウ(メインメーニュー)を入力してください。"
+msgstr ""
+"ハンド履歴をインポートする前に、あなたのスクリーン名とハンド履歴ディレクトリ"
+"をポーカーサイト設定ウィンドウ(メインメーニュー)を入力してください。"
 
 #: fpdb.pyw:979
 msgid "Strong Warning - Local configuration out of date"
@@ -3825,20 +3852,24 @@ msgstr "あなたの設定ファイルは更新する必要があります"
 msgid ""
 "This error is not necessarily fatal but it is strongly recommended that you "
 "update the configuration."
-msgstr "このエラーは致命的ではありませんが、設定を更新することを強くお勧めします。"
+msgstr ""
+"このエラーは致命的ではありませんが、設定を更新することを強くお勧めします。"
 
 #: fpdb.pyw:990
 msgid ""
 "To create a new configuration, see fpdb.sourceforge.net/apps/mediawiki/fpdb/"
 "index.php?title=Reset_Configuration"
-msgstr "新しい設定ファイルを作るには "
-"http://sourceforge.net/apps/mediawiki/fpdb/index.php?title=Reset_Configuration""を参照してください。"
+msgstr ""
+"新しい設定ファイルを作るには http://sourceforge.net/apps/mediawiki/fpdb/"
+"index.php?title=Reset_Configurationを参照してください。"
 
 #: fpdb.pyw:994
 msgid ""
 "A new configuration will destroy all personal settings (hud layout, site "
 "folders, screennames, favourite seats)"
-msgstr "新しい設定は個人的設定をすべて破壊します (HUD配置・ポーカーサイト・スクリーン名・座席など)"
+msgstr ""
+"新しい設定は個人的設定をすべて破壊します (HUD配置・ポーカーサイト・スクリーン"
+"名・座席など)"
 
 #: fpdb.pyw:998
 msgid "To keep existing personal settings, you must edit the local file."
@@ -3864,7 +3895,9 @@ msgstr "無効なデータベースバージョンかDBテーブルの欠落を�
 msgid ""
 "This error is not necessarily fatal but it is strongly recommended that you "
 "recreate the tables by using the Database menu."
-msgstr "このエラーは致命的ではありませんが、データベースのテーブル再作成をすることを強くお勧めします。"
+msgstr ""
+"このエラーは致命的ではありませんが、データベースのテーブル再作成をすることを"
+"強くお勧めします。"
 
 #: fpdb.pyw:1060
 msgid ""
@@ -3940,24 +3973,30 @@ msgid ""
 "The Windows installer package includes code licensed under the MIT license.\n"
 "You can find the full license texts in agpl-3.0.txt, gpl-2.0.txt, gpl-3.0."
 "txt and mit.txt in the fpdb installation directory."
-msgstr "FPDBへようこそ!\n"
-"新しいスナップショットとリリース版の告知が欲しい方は"
-"https://lists.sourceforge.net/lists/listinfo/fpdb-announce を購読してください。\n"
-"開発をより深く追い掛けたい方は"
-"https://lists.sourceforge.net/lists/listinfo/fpdb-main を購読してください。\n"
+msgstr ""
+"FPDBへようこそ!\n"
+"新しいスナップショットとリリース版の告知が欲しい方はhttps://lists."
+"sourceforge.net/lists/listinfo/fpdb-announce を購読してください。\n"
+"開発をより深く追い掛けたい方はhttps://lists.sourceforge.net/lists/listinfo/"
+"fpdb-main を購読してください。\n"
 "\n"
-"このプログラムは現在アルファ版で、データベースの設計はしばしば変更されます。\n"
-"必要に応じてFPDBの更新後に再インポートするためには、ハンド履歴ファイルを削除せず保管しておく必要があります。\n"
+"このプログラムは現在アルファ版で、データベースの設計はしばしば変更されま"
+"す。\n"
+"必要に応じてFPDBの更新後に再インポートするためには、ハンド履歴ファイルを削除"
+"せず保管しておく必要があります。\n"
 "\n"
-"文書は我々のウェブサイト http://fpdb.sourceforge.net/ のWikiをご覧ください。\n"
-"もし助けが必要ならば我々のウェブサイトの Contact - Get Help を訪れてください。\n"
-"注意:かつての設定ファイルdefault.conf はもう不要です。すべての設定はHUD_config.xmlにあります。\n"
+"文書は我々のウェブサイト http://fpdb.sourceforge.net/ のWikiをご覧くださ"
+"い。\n"
+"もし助けが必要ならば我々のウェブサイトの Contact - Get Help を訪れてくださ"
+"い。\n"
+"注意:かつての設定ファイルdefault.conf はもう不要です。すべての設定は"
+"HUD_config.xmlにあります。\n"
 "\n"
-"このプログラムはオープンソースの自由なソフトウェアで、"
-"AGPLでライセンスされる部分とGPL2以降でライセンスされる部分があります。\n"
+"このプログラムはオープンソースの自由なソフトウェアで、AGPLでライセンスされる"
+"部分とGPL2以降でライセンスされる部分があります。\n"
 "Windows用インストーラパッケージはMITライセンスのコードを含みます。\n"
-"ライセンスの全文はFPDBインストールディレクトリ中の"
-"agpl-3.0.txt, gpl-2.0.txt, gpl-3.0.txt, mit.txtをご覧ください。"
+"ライセンスの全文はFPDBインストールディレクトリ中のagpl-3.0.txt, gpl-2.0.txt, "
+"gpl-3.0.txt, mit.txtをご覧ください。"
 
 #: fpdb.pyw:1215
 msgid "Help"
@@ -4006,11 +4045,14 @@ msgid ""
 "Unable to import PYTZ library. Please install PYTZ from http://pypi.python."
 "org/pypi/pytz/"
 msgstr ""
-"ライブラリPYTZの読み込みに失敗しました。PYTZをインストールしてください。http://pypi.python.org/pypi/pytz/"
+"ライブラリPYTZの読み込みに失敗しました。PYTZをインストールしてください。"
+"http://pypi.python.org/pypi/pytz/"
 
 #: fpdb_prerun.py:171
 msgid "Python 2.6-2.7 not found, please install python 2.6 or 2.7 for fpdb."
-msgstr "Python 2.6〜2.7が見つかりません、Python 2.6か2.7をFPDB用にインストールしてください。"
+msgstr ""
+"Python 2.6〜2.7が見つかりません、Python 2.6か2.7をFPDB用にインストールしてく"
+"ださい。"
 
 #: iPokerSummary.py:99
 msgid "iPokerSummary.determineGameType: '%s'"
@@ -4049,6 +4091,9 @@ msgstr "GTKをインストールするか、環境変数PATHを編集してく�
 #: windows_make_bats.py:57
 msgid "No gtk directories found in your path."
 msgstr "PATHにGTKのフォルダが見つかりません"
+
+msgid "Exact"
+msgstr "同一"
 
 msgid "n Days"
 msgstr "日前から"
@@ -4111,7 +4156,7 @@ msgid "No <game_stat_set> found for %s games for type %s.\n"
 msgstr ""
 
 msgid "No layout found for %s games for site %s.\n"
-msgstr ""
+msgstr "%sのポーカーサイト%s用レイアウトが見つかりません。\n"
 
 msgid "No layout found for %d-max %s games for site %s.\n"
-msgstr ""
+msgstr "%d-max %sのポーカーサイト%s用レイアウトが見つかりません。\n"
