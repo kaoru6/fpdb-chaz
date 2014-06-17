@@ -6,7 +6,7 @@
 #  <http://jbbs.shitaraba.net/bbs/read.cgi/game/15823/1378036486/>
 #
 # 翻訳しないもの
-#   __str__ メソッドの中
+#   __str__メソッドの内部
 #
 msgid ""
 msgstr ""
