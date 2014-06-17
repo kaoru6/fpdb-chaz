@@ -1092,7 +1092,7 @@ msgid ""
 "Bulk import done: Stored: %d, Duplicates: %d, Partial: %d, Errors: %d, Time: "
 "%s seconds, Stored/second: %.0f"
 msgstr ""
-"一括インポート完了: 保存済: %d, 重複: %d, 部分的: %d, エラー: %d, 所要時間: "
+"一括インポート完了: 格納: %d, 重複: %d, 部分的: %d, エラー: %d, 所要時間: "
 "%s 秒, 1秒あたり保存件数: %.0f"
 
 #: GuiBulkImport.py:104
@@ -1899,7 +1899,7 @@ msgstr "トーナメント結果"
 
 #: GuiTourneyImport.py:76 GuiTourneyImport.py:421
 msgid "Tourney import done: Stored: %d, Errors: %d in %s seconds - %.0f/sec"
-msgstr "トーナメントのインポート完了: 保存: %d, エラー: %d を %s 秒 - %.0f/秒"
+msgstr "トーナメントのインポート完了: 格納: %d, エラー: %d を %s 秒 - %.0f/秒"
 
 #: GuiTourneyImport.py:82
 msgid "tourney import aborted - global lock not available"
