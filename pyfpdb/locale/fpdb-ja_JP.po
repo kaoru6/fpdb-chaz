@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Free Poker Database\n"
 "POT-Creation-Date: 2014-06-17 11:47+JST\n"
-"PO-Revision-Date: 2014-06-15 03:46+0900\n"
+"PO-Revision-Date: 2014-06-17 11:49+0900\n"
 "Last-Translator: TAKAHASHI Kaoru <kaoru@kaisei.org>\n"
 "Language-Team: Fpdb\n"
 "Language: ja\n"
@@ -171,7 +171,7 @@ msgstr "部分的なハンド履歴: 'Player joining table'"
 #: BetOnlineToFpdb.py:250
 msgid ""
 "BetOnlineToFpdb.determineGameType: Lim_Blinds has no lookup for '%s' - '%s'"
-msgstr ""
+msgstr "BetOnlineToFpdb.determineGameType: Lim_Blinds から '%s' - '%s' が引けません"
 
 #: BetOnlineToFpdb.py:267
 msgid "BetOnlineToFpdb.readHandInfo: '%s'"
@@ -234,7 +234,7 @@ msgstr "BossToFpdb.determineGameType: '%s'"
 
 #: BossToFpdb.py:168
 msgid "BossToFpdb.determineGameType: Lim_Blinds has no lookup for '%s' - '%s'"
-msgstr ""
+msgstr "BossToFpdb.determineGameType: Lim_Blinds から '%s' - '%s' が引けません"
 
 #: BossToFpdb.py:182
 msgid "BossToFpdb.readHandInfo: '%s'"
@@ -265,7 +265,7 @@ msgstr "BovadaToFpdb.determineGameType: '%s'"
 #: BovadaToFpdb.py:218
 msgid ""
 "BovadaToFpdb.determineGameType: Lim_Blinds has no lookup for '%s' - '%s'"
-msgstr ""
+msgstr "BovadaToFpdb.determineGameType: Lim_Blinds から '%s' - '%s' が引けません"
 
 #: BovadaToFpdb.py:231
 msgid "BovadaToFpdb.readHandInfo: '%s'"
@@ -289,7 +289,7 @@ msgstr "CakeToFpdb.determineGameType: '%s'"
 
 #: CakeToFpdb.py:189
 msgid "CakeToFpdb.determineGameType: Lim_Blinds has no lookup for '%s' - '%s'"
-msgstr ""
+msgstr "CakeToFpdb.determineGameType: Lim_Blinds から '%s' - '%s' が引けません"
 
 #: CakeToFpdb.py:202
 msgid "CakeToFpdb.readHandInfo: '%s'"
@@ -618,7 +618,7 @@ msgstr "EnetToFpdb.determineGameType: '%s'"
 
 #: EnetToFpdb.py:191
 msgid "EnetToFpdb.determineGameType: Lim_Blinds has no lookup for '%s' - '%s'"
-msgstr ""
+msgstr "EnetToFpdb.determineGameType: Lim_Blinds から '%s' - '%s' が引けません"
 
 #: EnetToFpdb.py:205
 msgid "EnetToFpdb.readHandInfo: '%s'"
@@ -635,7 +635,7 @@ msgstr "EntractionToFpdb.determineGameType: '%s'"
 #: EntractionToFpdb.py:165 PokerStarsToFpdb.py:262
 msgid ""
 "PokerStarsToFpdb.determineGameType: Lim_Blinds has no lookup for '%s' - '%s'"
-msgstr ""
+msgstr "PokerStarsToFpdb.determineGameType: Lim_Blinds から '%s' - '%s' が引けません"
 
 #: EntractionToFpdb.py:184
 msgid "EntractionToFpdb.readHandInfo: '%s'"
@@ -661,7 +661,7 @@ msgstr "EverleafToFpdb.determineGameType: '%s'"
 #: EverleafToFpdb.py:157
 msgid ""
 "EverleafToFpdb.determineGameType: Lim_Blinds has no lookup for '%s' - '%s'"
-msgstr ""
+msgstr "EverleafToFpdb.determineGameType: Lim_Blinds has no lookup for '%s' - '%s'"
 
 #: EverleafToFpdb.py:170
 msgid "EverleafToFpdb.readHandInfo: '%s'"
@@ -976,7 +976,7 @@ msgstr "FulltiltToFpdb.determineGameType: '%s'"
 #: FulltiltToFpdb.py:299
 msgid ""
 "FulltiltToFpdb.determineGameType: Lim_Blinds has no lookup for '%s' - '%s'"
-msgstr ""
+msgstr "FulltiltToFpdb.determineGameType: Lim_Blinds has no lookup for '%s' - '%s'"
 
 #: FulltiltToFpdb.py:312
 msgid "FulltiltToFpdb.readHandInfo: '%s'"
@@ -2123,7 +2123,7 @@ msgstr ""
 
 #: HUD_main.pyw:382
 msgid "HUD create: table name %s not found, skipping."
-msgstr "HUD create: 卓名 %s が見つかりません、スキップします。"
+msgstr "HUD create: 卓 %s が見つかりません、スキップします。"
 
 #: HUD_main.pyw:394
 msgid "Table \"%s\" no longer exists"
@@ -2641,7 +2641,7 @@ msgstr "MergeToFpdb.determineGameType: '%s'"
 
 #: MergeToFpdb.py:255
 msgid "MergeToFpdb.determineGameType: Lim_Blinds has no lookup for '%s' - '%s'"
-msgstr ""
+msgstr "MergeToFpdb.determineGameType: Lim_Blinds has no lookup for '%s' - '%s'"
 
 #: MergeToFpdb.py:264 MergeToFpdb.py:525
 msgid "MergeToFpdb.readHandInfo: '%s'"
@@ -2695,7 +2695,7 @@ msgstr "OnGameToFpdb.determineGameType: '%s' のリミットが見つかりま�
 #: OnGameToFpdb.py:236
 msgid ""
 "OnGameToFpdb.determineGameType: Lim_Blinds has no lookup for '%s' - '%s'"
-msgstr ""
+msgstr "OnGameToFpdb.determineGameType: Lim_Blinds has no lookup for '%s' - '%s'"
 
 #: OnGameToFpdb.py:249
 msgid "OnGameToFpdb.readHandInfo: '%s'"
@@ -2851,7 +2851,7 @@ msgstr ""
 #: PartyPokerToFpdb.py:293 PartyPokerToFpdb.py:327
 msgid ""
 "PartyPokerToFpdb.determineGameType: Lim_Blinds has no lookup for '%s' - '%s'"
-msgstr ""
+msgstr "PartyPokerToFpdb.determineGameType: Lim_Blinds から '%s' - '%s' が引けません"
 
 #: PartyPokerToFpdb.py:350
 msgid "PartyPokerToFpdb.readHandInfo: '%s'"
@@ -2927,8 +2927,7 @@ msgid ""
 "PokerTrackerToFpdb.determineGameType: Lim_Blinds has no lookup for '%s' - "
 "'%s'"
 msgstr ""
-"PokerTrackerToFpdb.determineGameType: Lim_Blinds から '%s' - '%s' が見つかり"
-"ません"
+"PokerTrackerToFpdb.determineGameType: Lim_Blinds から '%s' - '%s' が引けません"
 
 #: PokerTrackerToFpdb.py:303
 msgid "PokerTrackerToFpdb.readHandInfo: '%s'"
@@ -4070,7 +4069,7 @@ msgstr "iPokerToFpdb.determineGameType: '%s'"
 #: iPokerToFpdb.py:294
 msgid ""
 "iPokerToFpdb.determineGameType: Lim_Blinds has no lookup for '%s' - '%s'"
-msgstr ""
+msgstr "iPokerToFpdb.determineGameType: Lim_Blinds から '%s' - '%s' が引けません"
 
 #: iPokerToFpdb.py:303
 msgid "iPokerToFpdb.readHandInfo: '%s'"
