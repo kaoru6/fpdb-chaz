@@ -1478,7 +1478,7 @@ msgstr "fpdb.exeログ"
 
 #: GuiLogView.py:46
 msgid "HUD_main.exe Log"
-msgstr "HUD_main.exeログ"
+msgstr "HUD__main.exeログ"
 
 #: GuiLogView.py:57
 msgid "Log Messages"
