@@ -1093,7 +1093,7 @@ msgid ""
 "%s seconds, Stored/second: %.0f"
 msgstr ""
 "一括インポート完了: 格納: %d, 重複: %d, 部分的: %d, エラー: %d, 所要時間: "
-"%s 秒, 1秒あたり保存件数: %.0f"
+"%s 秒, 1秒あたり格納件数: %.0f"
 
 #: GuiBulkImport.py:104
 msgid "Import Complete"
@@ -2591,7 +2591,7 @@ msgstr "'%r'"
 
 #: Importer.py:525
 msgid "fpdb_import: sending hand to hud"
-msgstr "fpdb_import: ハンドをHUDへ送信中"
+msgstr "fpdb_import: HUDへハンド送信中"
 
 #: Importer.py:528
 msgid "Failed to send hand to HUD: %s"
@@ -3530,7 +3530,7 @@ msgstr "HUD統計を設定したいゲームの種類を選択してください
 
 #: fpdb.pyw:402
 msgid "HUD Preferences - please choose your stats"
-msgstr "HUD 設定 - 統計を選んでください"
+msgstr "HUD設定 - 統計を選んでください"
 
 #: fpdb.pyw:408
 msgid "Please choose the stats you wish to use in the below table."
