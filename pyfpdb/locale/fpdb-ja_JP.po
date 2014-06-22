@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Free Poker Database\n"
 "POT-Creation-Date: 2014-06-17 11:47+JST\n"
-"PO-Revision-Date: 2014-06-17 11:49+0900\n"
+"PO-Revision-Date: 2014-06-21 11:05+0900\n"
 "Last-Translator: TAKAHASHI Kaoru <kaoru@kaisei.org>\n"
 "Language-Team: Fpdb\n"
 "Language: ja\n"
@@ -2083,7 +2083,7 @@ msgstr "新しい卓へ移動しました、現在のHUDを閉じています"
 
 #: HUD_main.pyw:154 fpdb.pyw:1102
 msgid "Quitting normally"
-msgstr "通常終了しています"
+msgstr "正常終了しています"
 
 #: HUD_main.pyw:158
 msgid "kill_hud event"
