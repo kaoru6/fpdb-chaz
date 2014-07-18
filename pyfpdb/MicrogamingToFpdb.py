@@ -44,9 +44,10 @@ class Microgaming(HandHistoryConverter):
                                     betlimit="(?P<LIMIT>NL|PL|FL)"\s
                                     tabletype="(Cash\sGame|MTT)"\s
                                     gametypeid="\d+"\s
-                                    gametype="(?P<GAME>[a-zA-Z\&; ]+)"\s
+                                    gametype="(?P<GAME>[a-zA-Z\&; /]+)"\s
                                     realmoney="true"\s
-                                    currencysymbol="(?P<CURRENCY>.+|)"\s
+                                    currencysymbol="(?P<CURRENCY>\S+?|)"\s
+                                    (rake="\d+"\s)?
                                     playerseat="\d+"\s
                                     betamount="\d+"\s
                                     istournament="(?P<TOUR>\d)"
@@ -114,12 +115,15 @@ class Microgaming(HandHistoryConverter):
 
         mg = m.groupdict()
         #print "DEBUG: mg: %s" % mg
-        currencies = { 'rCA=':'EUR', '$':'USD', '':'T$'}
+        currencies = { 'rCA=':'EUR', '$':'USD', '':'T$', 'IACsIA==':'EUR', 'IAAkAA==':'EUR'}
         limits = { 'NL':'nl', 'PL':'pl', 'FL':'fl'}
         games = {              # base, category
                   "Hold&apos;em" : ('hold','holdem'), 
+                 "Hold &apos;em" : ('hold','holdem'), 
       "Multi Table Hold&apos;em" : ('hold','holdem'),
+     "Multi Table Hold &apos;em" : ('hold','holdem'),
                          "Omaha" : ('hold','omahahi'),
+                     "Omaha H/L" : ('hold','omahahilo')
                 }
         
         if 'LIMIT' in mg:
@@ -131,7 +135,10 @@ class Microgaming(HandHistoryConverter):
         if 'BB' in mg:
             info['bb'] = mg['BB']
         if 'CURRENCY' in mg:
-            info['currency'] = currencies[mg['CURRENCY']]
+            if mg['CURRENCY'] in currencies:
+                info['currency'] = currencies[mg['CURRENCY']]
+            else: 
+                info['currency'] = 'EUR'
         if 'TOUR' in mg:
             if mg['TOUR'] is None or int(mg['TOUR'])==0:
                 info['type'] = 'ring'
@@ -320,8 +327,11 @@ class Microgaming(HandHistoryConverter):
                 hand.addPlayerCards(player = player.group('PNAME'), street = street, closed = newcards)
 
     def readAction(self, hand, street):
+        allIns = 0
         m = self.re_Action.finditer(hand.streets[street])
         for action in m:
+            if action.group('ATYPE') in ('Call','Raise', 'AllIn') and allIns>0:
+                hand.setUncalledBets(False)
             #print "DEBUG: %s action.groupdict(): %s" % (street, action.groupdict())
             pname = self.playerNameFromSeatNo(action.group('SEAT'), hand)
             if action.group('ATYPE') == 'Fold':
@@ -352,9 +362,10 @@ class Microgaming(HandHistoryConverter):
                     hand.addBet(street, pname, action.group('BET'))
             elif action.group('ATYPE') == 'AllIn':
                 amount = action.group('BET').replace(u',', u'')
-                if Decimal(amount) <= (hand.lastBet[street] - sum(hand.bets[street][pname])):
+                if (Decimal(amount) <= (hand.lastBet[street] - sum(hand.bets[street][pname]))):
                     hand.setUncalledBets(False)
                 hand.addAllIn(street, pname, action.group('BET'))
+                allIns+=1
             elif action.group('ATYPE') == 'PostedToPlay':
                 if action.group('BET') == hand.gametype['sb']:
                     hand.addBlind(pname, 'secondsb', action.group('BET'))
